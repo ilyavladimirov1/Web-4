@@ -1,0 +1,43 @@
+{
+  "name": "mesto",
+  "version": "1.0.0",
+  "description": "Место. Учебный проект в Яндекс Практикуме",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyavladimirov1/Web-4.git"
+  },
+  "author": "Ilya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilyavladimirov1/Web-4/issues"
+  },
+  "homepage": "https://ilyavladimirov1.github.io/Web-4",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "autoprefixer": "^10.4.21",
+    "babel-loader": "^10.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "cssnano": "^7.0.6",
+    "gh-pages": "^6.3.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss-loader": "^8.1.1",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "core-js": "^3.41.0",
+    "lodash": "^4.17.21"
+  }
+}
